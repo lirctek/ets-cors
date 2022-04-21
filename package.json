@@ -2,6 +2,7 @@
   "name": "@lirctek/ets-cors",
   "version": "1.0.0",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "private": "true",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

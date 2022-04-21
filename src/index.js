@@ -1,7 +1,7 @@
 const cors = require('cors');
 
 /**
- * 
+ * CORS wrapper for ets micro services.
  * @param {*} options 
  * @returns 
  */
