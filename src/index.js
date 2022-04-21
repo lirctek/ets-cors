@@ -5,7 +5,7 @@ const cors = require('cors');
  * @param {*} options 
  * @returns 
  */
-export const etsCors = (options) => {
+const etsCors = (options) => {
 	return cors({
 		credentials: true,
 		optionsSuccessStatus: 200,
@@ -21,3 +21,5 @@ export const etsCors = (options) => {
 		...options,
 	});
 }
+
+exports.etsCors = etsCors;
