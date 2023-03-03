@@ -17,7 +17,8 @@ const etsCors = (options) => {
 			'http://34.221.142.208:7000',
 			/\.etruckingsoft\.com$/,
 			/\.taraiwa\.com$/,
-			/\.awako\.ai$/
+			/\.awako\.ai$/,
+			'http://3.108.9.245:9000'
 		],
 		...options,
 	});
